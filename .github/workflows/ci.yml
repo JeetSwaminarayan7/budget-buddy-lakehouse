@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # All tests, including the Delta ones (MERGE, time travel, schema enforcement)
+      - name: pytest
+        run: pytest -v tests
+
+      # The whole pipeline, twice: once for Jan-Sep, then again after
+      # landing October, checking the second run only adds the new rows
+      - name: Run the pipeline
+        run: |
+          python run_local.py | tee run1.log
+          python run_local.py --land-october | tee run2.log
+
+      - name: Check the second run was incremental
+        run: |
+          python - <<'EOF'
+          import ast, re
+          def counts(f):
+              return ast.literal_eval(re.search(r"COUNTS (\{.*\})", open(f).read()).group(1))
+          one, two = counts("run1.log"), counts("run2.log")
+          print(one, two, sep="\n")
+          added = two["bronze_transactions"] - one["bronze_transactions"]
+          assert added == 837, f"bronze should gain October's 837 rows, gained {added}"
+          assert one["silver_transactions_quarantine"] == 0
+          assert two["silver_transactions_quarantine"] == 5, "five bad October rows quarantined"
+          assert two["silver_transactions"] > one["silver_transactions"]
+          EOF
+          grep -q "bronze: +0 rows" <(python run_local.py) && echo "third run loaded nothing new"

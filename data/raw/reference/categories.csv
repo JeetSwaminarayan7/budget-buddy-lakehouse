@@ -1,0 +1,251 @@
+id,user_id,name
+1,1,  Groceries 
+2,1,Transport
+3,1,Dining
+4,1,Entertainment
+5,1,Utilities
+6,1,Housing
+7,1,Healthcare
+8,1,Shopping
+9,1,  Education 
+10,1,Income
+11,2,Groceries
+12,2,Transport
+13,2,  Dining 
+14,2,Entertainment
+15,2,Utilities
+16,2,Housing
+17,2,Healthcare
+18,2,Shopping
+19,2,Education
+20,2,Income
+21,3,Groceries
+22,3,  Transport 
+23,3,Dining
+24,3,Entertainment
+25,3,Utilities
+26,3,Housing
+27,3,Healthcare
+28,3,Shopping
+29,3,Education
+30,3,Income
+31,4,Groceries
+32,4,  Transport 
+33,4,Dining
+34,4,Entertainment
+35,4,  Utilities 
+36,4,Housing
+37,4,Healthcare
+38,4,  Shopping 
+39,4,Education
+40,4,Income
+41,5,  Groceries 
+42,5,Transport
+43,5,Dining
+44,5,  Entertainment 
+45,5,Utilities
+46,5,Housing
+47,5,Healthcare
+48,5,Shopping
+49,5,Education
+50,5,  Income 
+51,6,Groceries
+52,6,Transport
+53,6,Dining
+54,6,  Entertainment 
+55,6,Utilities
+56,6,Housing
+57,6,  Healthcare 
+58,6,Shopping
+59,6,Education
+60,6,Income
+61,7,Groceries
+62,7,Transport
+63,7,Dining
+64,7,  Entertainment 
+65,7,Utilities
+66,7,  Housing 
+67,7,  Healthcare 
+68,7,Shopping
+69,7,  Education 
+70,7,Income
+71,8,Groceries
+72,8,  Transport 
+73,8,Dining
+74,8,Entertainment
+75,8,Utilities
+76,8,Housing
+77,8,Healthcare
+78,8,Shopping
+79,8,Education
+80,8,Income
+81,9,  Groceries 
+82,9,Transport
+83,9,Dining
+84,9,  Entertainment 
+85,9,Utilities
+86,9,Housing
+87,9,Healthcare
+88,9,Shopping
+89,9,Education
+90,9,Income
+91,10,Groceries
+92,10,Transport
+93,10,Dining
+94,10,Entertainment
+95,10,Utilities
+96,10,Housing
+97,10,Healthcare
+98,10,Shopping
+99,10,Education
+100,10,  Income 
+101,11,Groceries
+102,11,Transport
+103,11,  Dining 
+104,11,Entertainment
+105,11,Utilities
+106,11,Housing
+107,11,  Healthcare 
+108,11,Shopping
+109,11,Education
+110,11,  Income 
+111,12,Groceries
+112,12,Transport
+113,12,Dining
+114,12,Entertainment
+115,12,  Utilities 
+116,12,  Housing 
+117,12,  Healthcare 
+118,12,Shopping
+119,12,Education
+120,12,Income
+121,13,Groceries
+122,13,Transport
+123,13,Dining
+124,13,  Entertainment 
+125,13,Utilities
+126,13,Housing
+127,13,Healthcare
+128,13,Shopping
+129,13,Education
+130,13,  Income 
+131,14,  Groceries 
+132,14,Transport
+133,14,Dining
+134,14,Entertainment
+135,14,  Utilities 
+136,14,Housing
+137,14,Healthcare
+138,14,  Shopping 
+139,14,Education
+140,14,Income
+141,15,  Groceries 
+142,15,Transport
+143,15,Dining
+144,15,Entertainment
+145,15,Utilities
+146,15,Housing
+147,15,  Healthcare 
+148,15,Shopping
+149,15,Education
+150,15,Income
+151,16,Groceries
+152,16,Transport
+153,16,Dining
+154,16,  Entertainment 
+155,16,Utilities
+156,16,Housing
+157,16,Healthcare
+158,16,  Shopping 
+159,16,Education
+160,16,Income
+161,17,Groceries
+162,17,Transport
+163,17,Dining
+164,17,Entertainment
+165,17,Utilities
+166,17,Housing
+167,17,Healthcare
+168,17,  Shopping 
+169,17,Education
+170,17,  Income 
+171,18,Groceries
+172,18,Transport
+173,18,Dining
+174,18,Entertainment
+175,18,Utilities
+176,18,Housing
+177,18,Healthcare
+178,18,Shopping
+179,18,Education
+180,18,Income
+181,19,Groceries
+182,19,Transport
+183,19,Dining
+184,19,Entertainment
+185,19,Utilities
+186,19,Housing
+187,19,Healthcare
+188,19,  Shopping 
+189,19,  Education 
+190,19,Income
+191,20,Groceries
+192,20,Transport
+193,20,  Dining 
+194,20,Entertainment
+195,20,  Utilities 
+196,20,Housing
+197,20,Healthcare
+198,20,  Shopping 
+199,20,Education
+200,20,Income
+201,21,  Groceries 
+202,21,  Transport 
+203,21,Dining
+204,21,Entertainment
+205,21,Utilities
+206,21,  Housing 
+207,21,Healthcare
+208,21,Shopping
+209,21,Education
+210,21,Income
+211,22,Groceries
+212,22,Transport
+213,22,Dining
+214,22,Entertainment
+215,22,Utilities
+216,22,  Housing 
+217,22,Healthcare
+218,22,Shopping
+219,22,Education
+220,22,  Income 
+221,23,Groceries
+222,23,Transport
+223,23,Dining
+224,23,Entertainment
+225,23,Utilities
+226,23,  Housing 
+227,23,Healthcare
+228,23,Shopping
+229,23,Education
+230,23,Income
+231,24,Groceries
+232,24,  Transport 
+233,24,Dining
+234,24,Entertainment
+235,24,Utilities
+236,24,  Housing 
+237,24,Healthcare
+238,24,  Shopping 
+239,24,Education
+240,24,Income
+241,25,Groceries
+242,25,Transport
+243,25,  Dining 
+244,25,  Entertainment 
+245,25,Utilities
+246,25,  Housing 
+247,25,Healthcare
+248,25,Shopping
+249,25,Education
+250,25,Income

@@ -1,0 +1,15 @@
+# Local Spark output
+spark-warehouse/
+metastore_db/
+derby.log
+.spark-ivy/
+
+# Databricks bundle state
+.databricks/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+.DS_Store
